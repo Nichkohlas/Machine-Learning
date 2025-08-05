@@ -156,7 +156,7 @@ This enables businesses to focus on high-potential prospects and optimize market
 - **Feature scaling:** Standardized numerical variables to mean = 0 and variance = 1 (important for distance-based KNN).
 - **Train-test split:** 70% training / 30% testing to evaluate performance on unseen data.
 
-![Performance metrics]()  
+![Performance metrics](Performance.png)  
 
 *Model Performance Metrics for KNN and SVM*
 
@@ -173,7 +173,7 @@ This enables businesses to focus on high-potential prospects and optimize market
 - To further evaluate the performance of the classification models, **Receiver Operating Characteristic (ROC)** curves were plotted for both KNN and SVM models.
 - The ROC curve illustrates the **trade-off** between the True Positive Rate (Sensitivity) and False Positive Rate (1 - Specificity) across different classification thresholds.
 
-![ROC]()  
+![ROC](ROC.png)  
 
 *The ROC analysis supports previous findings, indicating that the KNN model outperforms SVM in effectively predicting customer conversion.*
   
