@@ -23,13 +23,11 @@ As part of this project, I completed three distinct tasks:
 
 ## Datasets
 
-- **Dataset 1 (Tasks 1 & 3):** [Link to Kaggle](#)  
-  - Size: X rows × Y columns  
-  - Key features: [briefly describe key variables]  
+- **Dataset 1 (Task 1):** [Diabetes Health Indicators Dataset](https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset/data)  
+  - Size: 253681 rows × 22 columns
 
-- **Dataset 2 (Task 2):** [Link to Kaggle](#)  
-  - Size: X rows × Y columns  
-  - Key features: [briefly describe key variables]  
+- **Dataset 2 (Task 2 & 3):** [Insurance Dataset Based on Real-World Statistics](https://www.kaggle.com/datasets/samialyasin/insurance-data-personal-auto-line-of-business)  
+  - Size: 10001 rows × 27 columns 
 
 ---
 
