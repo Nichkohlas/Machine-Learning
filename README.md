@@ -136,9 +136,9 @@ To evaluate model performance, two metrics were used:
 
 ## 3. Classification Analysis
 
-This task is focused on **predicting customer conversion** (binary: 0 = No Conversion, 1 = Converted) using demographic, insurance, and discount-related features.
+This task is focused on comparing the performance of different classification models in predicting customer conversion (binary: 0 = No Conversion, 1 = Converted) using demographic, insurance, and discount-related features.
 
-This enables businesses to focus on high-potential prospects and optimize marketing strategies.
+By evaluating these models, businesses can better identify high-potential prospects and optimize marketing strategies.
 
 **Models Used**
 - **K-Nearest Neighbors (KNN):**
