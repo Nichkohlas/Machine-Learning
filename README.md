@@ -180,3 +180,7 @@ By evaluating these models, businesses can better identify high-potential prospe
 - The SVM with RBF kernel **struggled to separate the classes**, possibly due to class imbalance and the feature space characteristics.
 
 ---
+
+**Files**
+- R code for this project can be accessed [here]().
+- Written report for this project can be accessed [here]().
