@@ -32,6 +32,7 @@ As part of this project, I completed three distinct tasks:
   - Key features: [briefly describe key variables]  
 
 ---
+
 # Results and Findings
 
 ## 1. Unsupervised Learning — Clustering
@@ -47,7 +48,7 @@ This process aimed to **uncover patterns and hidden structures** in the data wit
 
 This preprocessing step was essential to maintain clustering robustness and ensure more meaningful population segmentation.
 
-- **Findings:**
+- **Findings**
 
   - **Diabetes Distribution:**
     - A majority of individuals (>80%) fell under the No Diabetes category.
@@ -55,14 +56,14 @@ This preprocessing step was essential to maintain clustering robustness and ensu
   - **Binary Variable Distribution:**
     - The presence of high blood pressure was more prevalent among individuals with diabetes and prediabetes compared to those without diabetes.
    
-![Diabetes distribution plot]()  
+![Diabetes distribution plot](Dbts_Bar.png)  
 
 *Bar charts illustrating the distribution of diabetes across variables*
 
   - **Optimal Clusters:**
     - The Elbow Curve indicated that K = 3 provided an optimal balance between complexity and explanatory power.
 
-![Elbow plot]()  
+![Elbow plot](Elbow_plot.png)  
 
 *Elbow method for determining the optimal number of clusters.*
 
@@ -71,7 +72,7 @@ This preprocessing step was essential to maintain clustering robustness and ensu
     - Cluster 2: Slightly lower BMI (29.5) with moderate Age (9.10), Education (4.28), and Income (4.67) — moderate health and socioeconomic status.
     - Cluster 3: Healthiest cluster with the lowest BMI (26.9), highest Education (5.62) and Income (7.28) — representing younger, well-educated individuals with minimal health concerns.
 
-![Cluster summary]()  
+![Cluster summary](Cluster_Summ.png)  
 
 *Summary of K-Means clustering results, displaying cluster sizes and key feature averages (BMI, Age, Education, Income).*
 
@@ -79,7 +80,29 @@ This preprocessing step was essential to maintain clustering robustness and ensu
     - The box plot of average BMI showed a decreasing trend across clusters, consistent with cluster health segmentation.
     - The bar plot of general health (GenHlth) distribution revealed a higher proportion of good health in clusters with lower BMI and higher socioeconomic status.
    
-![Bar plot]()  
+![Bar plot](Cluster_Bar.png)  
 
-*Bar plot of clusters*
+*Health distributions across clusters*
+
+- **Strategic Recommendations**
+Based on the clustering insights, tailored health campaigns are recommended for each subgroup:
+   - **Cluster 1 (Priority Group)**
+     - Individuals in this group exhibit poorest health indicators (highest BMI, worst mental and general health).
+     - **Action:** Implement targeted health campaigns focusing on improving lifestyle habits (dietary guidance, physical activity programs) and increasing access to preventive healthcare at subsidized rates.
+      - **Rationale:** Lower income levels in this group indicate that cost-effective and accessible interventions will have the most impact.
+   - **Cluster 2 & 3 (Maintenance Group)**
+     - These clusters show better overall health and higher education/income levels.
+     - **Action:** Encourage routine health checkups, stress management programs, and disease prevention initiatives to maintain or improve current health levels.
+    
+By tailoring interventions to each cluster’s unique profile, health campaigns can be more impactful and resource-efficient, ultimately improving population health outcomes.
+
+---
+
+## 2. Regression Analysis
+
+
+
+
+
+
   
