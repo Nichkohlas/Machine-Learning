@@ -1,6 +1,6 @@
 # Machine Learning
 
-This project explores **three core machine learning tasks** — Unsupervised Learning, Regression, and Classification — using real-world datasets from Kaggle.  
+This project uses R Programming to explore **three core machine learning tasks** — Unsupervised Learning, Regression, and Classification — using real-world datasets from Kaggle.  
 The goal was to **apply appropriate ML techniques**, analyze results, and provide actionable insights where appropriate.
 
 ---
@@ -182,5 +182,4 @@ By evaluating these models, businesses can better identify high-potential prospe
 ---
 
 **Files**
-- R code for this project can be accessed [here]().
 - Written report for this project can be accessed [here]().
