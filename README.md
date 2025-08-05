@@ -120,11 +120,11 @@ To evaluate model performance, two metrics were used:
 - **Root Mean Squared Error (RMSE):** Measures the model's prediction error (lower is better).
 - **R² (Coefficient of Determination):** Measures how well the model explains the variance in the data (higher is better).
 
-![Formula]()  
+![Formula](Formula.png)  
 
 *Mathematical formulas used to calculate RMSE and R² for model evaluation.*
 
-![Reg models]()  
+![Reg models](LR_Perf.png)  
 
 *Performance comaprison of each regression model*
 
@@ -181,4 +181,4 @@ This enables businesses to focus on high-potential prospects and optimize market
 - Contrary to typical expectations, **KNN outperformed SVM** in this dataset. The distance-based KNN model, with appropriate feature scaling and K = 5, provided a better balance between accuracy and predictive reliability.
 - The SVM with RBF kernel **struggled to separate the classes**, possibly due to class imbalance and the feature space characteristics.
 
-
+---
